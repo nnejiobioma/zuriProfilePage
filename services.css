@@ -37,9 +37,6 @@ body {
     background-color: #4831d4;
     ;
     display: flex;
-    /* height: 100vh; */
-    /* padding-top: 20px;
-    padding-bottom: 20px; */
     align-items: center;
     justify-content: center;
     flex-direction: column;
