@@ -51,50 +51,42 @@ main {
     flex-direction: column;
 }
 
-.topimage.jpg {
-    width: 200px;
+.topImageContainer {
+    width: 100%;
     height: auto;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
 }
 
-.topimage {
-    width: 200px;
-    height: auto;
+h1 {
+    font-size: 50px;
+    color: #f2f2f2;
 }
 
 input[type=text],
 select,
 textarea {
     width: 100%;
-    /* Full width */
     padding: 12px;
-    /* Some padding */
-    border: 1px solid #ccc;
-    /* Gray border */
+    border: 1px solid rgb(158, 153, 153);
     border-radius: 4px;
-    /* Rounded borders */
     box-sizing: border-box;
-    /* Make sure that padding and width stays in place */
     margin-top: 6px;
-    /* Add a top margin */
     margin-bottom: 16px;
-    /* Bottom margin */
-    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical;
 }
-
-
-/* Style the submit button with a specific background color etc */
 
 input[type=submit] {
     background-color: #04AA6D;
-    color: white;
+    color: rgb(251, 244, 244);
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
-
-
-/* When moving the mouse over the submit button, add a darker green color */
 
 input[type=submit]:hover {
     background-color: #45a049;
@@ -105,11 +97,21 @@ input[type=submit]:hover {
 
 .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    /* background-color: #ecf2f4; */
     padding: 20px;
+    color: aliceblue;
+}
+
+.containerP {
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+textarea {
+    height: 200px;
 }
 
 footer {
     font-size: 17px;
-    margin-top: 150px
+    margin-top: 40px
 }

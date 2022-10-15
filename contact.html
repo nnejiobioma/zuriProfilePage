@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="contact.css" />
-    <title>Document</title>
+    <title>Contact</title>
 </head>
 
 <body>
@@ -21,16 +21,23 @@
     </header>
 
     <main>
-        <div class="topimage">
-            <img src="topimage.jpg" alt="topImage" />
+        <div class="topImageContainer">
+            <h1>Contact Me</h1>
         </div>
+
         <div class="container">
+            <p class="containerP">
+                Hay! do you have any services you need my help with or you feel like having a cup of coffe with me please contact me
+            </p>
             <form action="action_page.php">
                 <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+                <input type="text" id="fname" name="firstname" placeholder="Your name please.." />
 
                 <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+                <input type="text" id="lname" name="lastname" placeholder="Your last name please.." />
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email please.." />
 
                 <label for="country">Country</label>
                 <select id="country" name="country">
@@ -39,8 +46,11 @@
             <option value="usa">USA</option>
           </select>
 
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height: 200px"></textarea>
+                <label for="contact info">Contact Information</label>
+                <textarea id="contactInfo" name="subject" placeholder="Please Write contact that can assist us to contact you.."></textarea>
+
+                <label for="message">Drop your message</label>
+                <textarea id="messageInfo" name="subject" placeholder=" please could you frop your message.."></textarea>
 
                 <input type="submit" value="Submit" />
             </form>

@@ -44,3 +44,49 @@ body {
     justify-content: center;
     flex-direction: column;
 }
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    color: #f2f2f2;
+}
+
+section {
+    padding-top: 50px;
+}
+
+div.gallery {
+    margin: 5px;
+    /* border: 1px solid #ccc; */
+    align-items: center;
+    width: 800px;
+    height: auto;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc,
+h2 {
+    padding: 15px;
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
+}
+
+footer {
+    font-size: 17px;
+    padding-bottom: 20px;
+    /* margin-top: 10px */
+}
